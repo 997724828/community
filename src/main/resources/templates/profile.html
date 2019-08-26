@@ -28,9 +28,8 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">
-                            <a th:href="@{'/question/'+${question.id}}" th:text="${question.title}"></a>
+                            <a th:href="@{'/question/'+${question.id}+'/'+${session.user.id}}" th:text="${question.title}"></a>
                         </h4>
-                        <!--<span th:text="${question.description}"></span>-->
                         <span class="text-desc">
                             <span th:text="${question.commentCount}"></span> 个回复 •
                             <span th:text="${question.viewCount}"></span> 个浏览 •
@@ -63,7 +62,7 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">
-                            <a th:href="@{'/question/'+${collect.questionId}}" th:text="${collect.question.title}"></a>
+                            <a th:href="@{'/question/'+${collect.questionId}+'/'+${session.user.id}}" th:text="${collect.question.title}"></a>
                         </h4>
                         <span class="text-desc">
                             <span th:text="${collect.question.commentCount}"></span> 个回复 •
@@ -133,7 +132,9 @@
                    <span class="badge" th:text="${session.unReadCount}"></span>
                </a>
                <a href="/profile/collects" class="list-group-item" th:classappend="${section == 'collects' ? 'active' : ''}">我的收藏
-                   <span class="badge" th:text="${session.collectCount}"></span></a>
+                   <span class="badge" th:text="${session.collectCount}"></span>
+               </a>
+               <a href="/profile/personal" class="list-group-item" th:classappend="${section == 'personal' ? 'active' : ''}">我的资料</a>
            </div>
         </div>
     </div>

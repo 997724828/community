@@ -61,6 +61,7 @@ public class ProfileController {
             model.addAttribute("paginationDTOList",paginationDTOList);
         }else if ("personal".equals(action)){
             model.addAttribute("section","personal");
+            model.addAttribute("sectionName","我的资料");
         }else if ("collects".equals(action)){
             PaginationDTO paginationDTOList = collectService.list(user.getId(),page,size);
             model.addAttribute("section","collects");

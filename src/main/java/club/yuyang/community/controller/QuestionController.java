@@ -2,11 +2,9 @@ package club.yuyang.community.controller;
 
 import club.yuyang.community.dto.CommentDTO;
 import club.yuyang.community.dto.QuestionDTO;
-import club.yuyang.community.dto.ResultDTO;
 import club.yuyang.community.entity.Collect;
 import club.yuyang.community.entity.Thumb;
 import club.yuyang.community.entity.User;
-import club.yuyang.community.entity.UserExample;
 import club.yuyang.community.enums.CommentTypeEnum;
 import club.yuyang.community.exception.CustomizeErrorCode;
 import club.yuyang.community.exception.CustomizeException;

@@ -1,6 +1,134 @@
-2019-08-25 23:51:22.344  INFO 16240 --- [main] c.y.community.CommunityApplicationTests  : Starting CommunityApplicationTests on DESKTOP-784H7CQ with PID 16240 (started by asus in F:\intellij idea\community_V3)
-2019-08-25 23:51:22.427  INFO 16240 --- [main] c.y.community.CommunityApplicationTests  : The following profiles are active: dev
-2019-08-25 23:51:30.850  INFO 16240 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-08-25 23:51:32.033  INFO 16240 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-08-25 23:51:33.113  INFO 16240 --- [main] c.y.community.CommunityApplicationTests  : Started CommunityApplicationTests in 11.742 seconds (JVM running for 13.948)
-2019-08-25 23:51:34.890  INFO 16240 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 00:03:18.785  INFO 2960 --- [main] c.yuyang.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-784H7CQ with PID 2960 (started by asus in F:\intellij idea\community_V3)
+2019-08-26 00:03:18.824  INFO 2960 --- [main] c.yuyang.community.CommunityApplication  : The following profiles are active: dev
+2019-08-26 00:03:21.613  INFO 2960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-26 00:03:21.666  INFO 2960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-26 00:03:21.666  INFO 2960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-26 00:03:21.975  INFO 2960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-26 00:03:21.978  INFO 2960 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3000 ms
+2019-08-26 00:03:23.688  INFO 2960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 00:03:24.217  INFO 2960 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-26 00:03:24.466  INFO 2960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-26 00:03:24.470  INFO 2960 --- [main] c.yuyang.community.CommunityApplication  : Started CommunityApplication in 6.384 seconds (JVM running for 11.895)
+2019-08-26 00:03:27.206  INFO 2960 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-26 00:03:27.207  INFO 2960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-26 00:03:27.241  INFO 2960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2019-08-26 00:03:28.382  INFO 2960 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 00:03:29.304  INFO 2960 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-26 00:04:45.534  INFO 18412 --- [main] c.yuyang.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-784H7CQ with PID 18412 (started by asus in F:\intellij idea\community_V3)
+2019-08-26 00:04:45.541  INFO 18412 --- [main] c.yuyang.community.CommunityApplication  : The following profiles are active: dev
+2019-08-26 00:04:47.809  INFO 18412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-26 00:04:47.855  INFO 18412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-26 00:04:47.856  INFO 18412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-26 00:04:48.094  INFO 18412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-26 00:04:48.095  INFO 18412 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2475 ms
+2019-08-26 00:04:49.133  INFO 18412 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 00:04:49.515  INFO 18412 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-26 00:04:49.787  INFO 18412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-26 00:04:49.795  INFO 18412 --- [main] c.yuyang.community.CommunityApplication  : Started CommunityApplication in 4.895 seconds (JVM running for 9.012)
+2019-08-26 00:05:01.587  INFO 18412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-26 00:05:01.587  INFO 18412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-26 00:05:01.602  INFO 18412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-08-26 00:05:01.758  INFO 18412 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 00:05:02.050  INFO 18412 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-26 03:11:38.152  WARN 18412 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h59m36s2ms54µs900ns).
+2019-08-26 06:25:44.193  WARN 18412 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h59m36s35ms844µs200ns).
+2019-08-26 08:41:20.433  WARN 18412 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h36s227ms219µs500ns).
+2019-08-26 08:48:44.722  INFO 13924 --- [main] c.yuyang.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-784H7CQ with PID 13924 (started by asus in F:\intellij idea\community_V3)
+2019-08-26 08:48:44.726  INFO 13924 --- [main] c.yuyang.community.CommunityApplication  : The following profiles are active: dev
+2019-08-26 08:48:49.586  INFO 13924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-26 08:48:49.905  INFO 13924 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-26 08:48:49.906  INFO 13924 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-26 08:48:51.181  INFO 13924 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-26 08:48:51.183  INFO 13924 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6221 ms
+2019-08-26 08:48:53.855  INFO 13924 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 08:48:54.441  INFO 13924 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-26 08:48:54.860  INFO 13924 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-26 08:48:54.865  INFO 13924 --- [main] c.yuyang.community.CommunityApplication  : Started CommunityApplication in 11.205 seconds (JVM running for 16.132)
+2019-08-26 08:51:35.537  INFO 13924 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-26 08:51:35.538  INFO 13924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-26 08:51:35.549  INFO 13924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-08-26 08:51:35.654  INFO 13924 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 08:51:35.905  INFO 13924 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-26 08:55:47.265  INFO 5364 --- [main] c.yuyang.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-784H7CQ with PID 5364 (started by asus in F:\intellij idea\community_V3)
+2019-08-26 08:55:47.271  INFO 5364 --- [main] c.yuyang.community.CommunityApplication  : The following profiles are active: dev
+2019-08-26 08:55:50.482  INFO 5364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-26 08:55:50.619  INFO 5364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-26 08:55:50.620  INFO 5364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-26 08:55:51.186  INFO 5364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-26 08:55:51.186  INFO 5364 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3684 ms
+2019-08-26 08:55:53.429  INFO 5364 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 08:55:53.784  INFO 5364 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-26 08:55:54.191  INFO 5364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-26 08:55:54.197  INFO 5364 --- [main] c.yuyang.community.CommunityApplication  : Started CommunityApplication in 7.873 seconds (JVM running for 15.596)
+2019-08-26 08:56:11.164  INFO 5364 --- [http-nio-8080-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-26 08:56:11.164  INFO 5364 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-26 08:56:11.175  INFO 5364 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-08-26 08:56:11.285  INFO 5364 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 08:56:11.545  INFO 5364 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-26 09:01:29.389  WARN 5364 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m17s742ms924µs600ns).
+2019-08-26 09:09:07.123  INFO 4888 --- [main] c.yuyang.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-784H7CQ with PID 4888 (started by asus in F:\intellij idea\community_V3)
+2019-08-26 09:09:07.134  INFO 4888 --- [main] c.yuyang.community.CommunityApplication  : The following profiles are active: dev
+2019-08-26 09:09:09.409  INFO 4888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-26 09:09:09.440  INFO 4888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-26 09:09:09.441  INFO 4888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-26 09:09:09.639  INFO 4888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-26 09:09:09.640  INFO 4888 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2340 ms
+2019-08-26 09:09:10.730  INFO 4888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 09:09:10.924  INFO 4888 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-26 09:09:11.184  INFO 4888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-26 09:09:11.189  INFO 4888 --- [main] c.yuyang.community.CommunityApplication  : Started CommunityApplication in 5.314 seconds (JVM running for 10.259)
+2019-08-26 09:09:12.254  INFO 4888 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-26 09:09:12.254  INFO 4888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-26 09:09:12.269  INFO 4888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-08-26 09:09:12.418  INFO 4888 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 09:09:12.682  INFO 4888 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-26 09:12:44.531  INFO 8460 --- [main] c.yuyang.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-784H7CQ with PID 8460 (started by asus in F:\intellij idea\community_V3)
+2019-08-26 09:12:44.538  INFO 8460 --- [main] c.yuyang.community.CommunityApplication  : The following profiles are active: dev
+2019-08-26 09:12:48.527  INFO 8460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-26 09:12:48.591  INFO 8460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-26 09:12:48.592  INFO 8460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-26 09:12:48.867  INFO 8460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-26 09:12:48.869  INFO 8460 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4147 ms
+2019-08-26 09:12:50.523  INFO 8460 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 09:12:50.912  INFO 8460 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-26 09:12:51.720  INFO 8460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-26 09:12:51.731  INFO 8460 --- [main] c.yuyang.community.CommunityApplication  : Started CommunityApplication in 8.628 seconds (JVM running for 13.079)
+2019-08-26 09:13:15.592  INFO 8460 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-26 09:13:15.592  INFO 8460 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-26 09:13:15.609  INFO 8460 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-08-26 09:13:15.724  INFO 8460 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 09:13:16.005  INFO 8460 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-26 09:14:39.805  WARN 8460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s696ms505µs200ns).
+2019-08-26 09:16:07.364  WARN 8460 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m27s560ms885µs500ns).
+2019-08-26 09:16:50.513  INFO 16692 --- [main] c.yuyang.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-784H7CQ with PID 16692 (started by asus in F:\intellij idea\community_V3)
+2019-08-26 09:16:50.524  INFO 16692 --- [main] c.yuyang.community.CommunityApplication  : The following profiles are active: dev
+2019-08-26 09:16:52.419  INFO 16692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-26 09:16:52.446  INFO 16692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-26 09:16:52.446  INFO 16692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-26 09:16:52.670  INFO 16692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-26 09:16:52.670  INFO 16692 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2036 ms
+2019-08-26 09:16:53.508  INFO 16692 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 09:16:53.797  INFO 16692 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-26 09:16:53.982  INFO 16692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-26 09:16:53.985  INFO 16692 --- [main] c.yuyang.community.CommunityApplication  : Started CommunityApplication in 4.435 seconds (JVM running for 8.673)
+2019-08-26 09:16:57.636  INFO 16692 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-26 09:16:57.637  INFO 16692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-26 09:16:57.648  INFO 16692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-08-26 09:16:57.754  INFO 16692 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 09:16:57.986  INFO 16692 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-26 09:21:46.451  INFO 7140 --- [main] c.yuyang.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-784H7CQ with PID 7140 (started by asus in F:\intellij idea\community_V3)
+2019-08-26 09:21:46.455  INFO 7140 --- [main] c.yuyang.community.CommunityApplication  : The following profiles are active: dev
+2019-08-26 09:21:49.681  INFO 7140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-26 09:21:49.726  INFO 7140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-26 09:21:49.727  INFO 7140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-26 09:21:49.998  INFO 7140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-26 09:21:49.999  INFO 7140 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2842 ms
+2019-08-26 09:21:51.470  INFO 7140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 09:21:51.911  INFO 7140 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-08-26 09:21:52.235  INFO 7140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-26 09:21:52.239  INFO 7140 --- [main] c.yuyang.community.CommunityApplication  : Started CommunityApplication in 6.601 seconds (JVM running for 12.481)
+2019-08-26 09:21:56.922  INFO 7140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-26 09:21:56.923  INFO 7140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-26 09:21:56.934  INFO 7140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-08-26 09:21:57.050  INFO 7140 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-26 09:21:57.398  INFO 7140 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
