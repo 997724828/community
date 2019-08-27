@@ -124,7 +124,7 @@
 
 
         <!--右边部分-->
-        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12" th:if="${section == 'questions' || section == 'replies' || section == 'collects'}">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12" th:if="${section == 'questions' || section == 'replies' || section == 'collects' || section == 'personal'}">
            <div class="list-group section">
                <a href="/profile/questions" class="list-group-item" th:classappend="${section == 'questions' ? 'active' : ''}">我的问题</a>
                <a href="/profile/replies" class="list-group-item" th:classappend="${section == 'replies' ? 'active' : ''}">

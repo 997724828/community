@@ -32,8 +32,6 @@ public class ProfileController {
     @Resource
     private CollectService collectService;
 
-    @Resource
-    private CollectMapper collectMapper;
 
 
     @GetMapping("/profile/{action}")

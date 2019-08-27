@@ -24,7 +24,7 @@ function CommentFunction(parentId,type,content) {
                 //检测没有登录，需要登录
                 var isAccepted = confirm(response.message);
                 if (isAccepted) {
-                    window.open("https://github.com/login/oauth/authorize?client_id=2e1254eee222b0befd52&redirect_uri=http://www.yuyang666.club/callback&scope=user&state=1");
+                    window.open("https://github.com/login/oauth/authorize?client_id=2e1254eee222b0befd52&redirect_uri=http://106.75.27.40/callback&scope=user&state=1");
                     window.localStorage.setItem("closable",true);
                 }
             }else {

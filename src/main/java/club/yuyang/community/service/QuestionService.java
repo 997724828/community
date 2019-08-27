@@ -56,6 +56,9 @@ public class QuestionService {
        questionQueryDTO.setSearch(search);
 
        Integer questionTotalCount = questionExtMapper.countBySearch(questionQueryDTO);
+       if (questionTotalCount == 0){
+           throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
+       }
        if (questionTotalCount % size == 0) {
            totalPages = questionTotalCount / size;
        }else {
@@ -77,6 +80,7 @@ public class QuestionService {
         questionQueryDTO.setSize(size);
         questionQueryDTO.setPage(offset);
         List<Question> questionList = questionExtMapper.selectBySearch(questionQueryDTO);
+
         List<QuestionDTO> questionDTOList = new ArrayList<>();
 
 
